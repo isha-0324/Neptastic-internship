@@ -1,0 +1,21 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.box{
+   width: 199px;
+   text-align: center;
+   border: 2px solid blueviolet;
+   border-radius: 6px;
+   padding: 12px;
+}
+.box h1{
+    color: blueviolet;
+}
+.box button{
+    color: white;
+    background-color: blueviolet;
+    border: 2px solid blueviolet;
+}
