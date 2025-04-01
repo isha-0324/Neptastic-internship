@@ -1,0 +1,21 @@
+.container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.box{
+    
+    border-radius: 7px;
+    width: 212px;
+    text-align: center;
+    padding: 12px;
+    margin: 12px;
+    box-shadow: -5px -5px 7px rgba(30, 29, 29, 0.1),5px -5px 7px rgba(30, 29, 29, 0.1), -5px 5px 7px rgba(30, 29, 29, 0.1),5px 5px 7px rgba(30, 29, 29, 0.1);
+}
+.box img{
+    height: 88px;
+    width: 88px;
+}
+.box p{
+    color: grey;
+}
