@@ -1,0 +1,26 @@
+.container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.box{
+    background-color: blue;
+    color: white;
+    width: 2119px;
+    text-align: center;
+    padding: 81px;
+
+}
+.box button{
+    background-color: orangered;
+    color: white;
+    border: 1px orangered;
+    padding: 7px;
+    width: 99px;
+}
+.container2{
+    text-align: center;
+    font-weight: 500;
+    padding: 15px;
+}
