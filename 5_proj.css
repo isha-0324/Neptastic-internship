@@ -1,0 +1,15 @@
+.basket{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+.box1{
+    
+    width: 1113px;
+    border: 2px solid black;
+    text-align: center;
+    border-radius: 5px;
+}
+.box1 h1{
+    color: rgb(126, 8, 237);
+}
