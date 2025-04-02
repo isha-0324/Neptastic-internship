@@ -1,0 +1,236 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    padding: 0px;
+    margin: 0px;
+}
+/* nav section */
+.container{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    
+}
+.logo{
+    margin: 14px;
+    color: white;
+    cursor: pointer;
+    font-size: 500;
+    
+}
+.link{
+    list-style: none;
+    display: flex;
+    gap: 32px;
+    margin: 14px;
+}
+.link li a{
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+/* home section */
+.myInfo{
+   background-image:linear-gradient(to bottom,rgb(35, 57, 35),rgb(218, 218, 239));
+   padding: 48px;
+   text-align: center; 
+   animation: fadeIn 1.5s ease-in-out;
+   animation-duration: 2s;
+  
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 5;
+    }
+}
+.myInfo img{
+    width: 100px;
+   cursor: pointer;
+}
+.myInfo h1{
+    cursor: pointer;
+    color: rgb(78, 153, 4);
+    font-weight: bold;
+}
+.myInfo p{
+    cursor: pointer;
+}
+
+/* cared section */
+.price{
+    padding: 48px;
+    background-color: rgb(157, 186, 205);
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+   
+ 
+}
+.basic{
+    background-color: rgb(144, 170, 226);
+    color: black;
+    border: 1px solid rgb(224, 223, 223);
+    padding: 6px;
+    text-align: center;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 2px 2px 8px grey;
+}
+.basic:hover{
+    background-color: blueviolet;
+}
+.basic button{
+    background-color: rgb(30, 33, 132);
+    color: white; 
+    border-radius: 3px;
+    cursor: pointer;
+    box-shadow: 2px 2px 8px grey;
+}
+.premium{
+    background-color:  rgb(144, 170, 226);
+    color: black;
+    border: 1px solid grey;
+    padding: 6px;
+    text-align: center;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 2px 2px 8px grey;
+}
+.premium:hover{
+    background-color:blueviolet ;
+}
+.premium button{
+    background-color: rgb(30, 33, 132);
+    color: white; 
+    border-radius: 3px;
+    cursor: pointer;
+    box-shadow: 2px 2px 8px grey;
+}
+.diamond{
+    background-color: rgb(144, 170, 226);
+    color: black;
+    border: 1px solid grey;
+    padding: 6px;
+    text-align: center;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 2px 2px 8px grey;
+}
+.diamond:hover{
+    background-color: blueviolet;
+}
+.diamond button{
+    background-color: rgb(30, 33, 132);
+    color: white; 
+    border-radius: 3px;
+    cursor: pointer;
+    box-shadow: 2px 2px 7px grey;
+}
+.basic,.premium,.diamond {
+    transition: transform 0.5s ease-in-out;
+}
+.basic:hover,.premium:hover,.diamond:hover {
+    transform: scale(1.1);
+}
+
+/* about section */
+.about{
+    background-image: linear-gradient(to bottom,rgb(146, 165, 146), rgb(223, 218, 227));
+    text-align: center;
+    padding: 48px;
+    font-family: sans-serif;
+}
+.about h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+.about p {
+    font-size: 1em;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+}
+.about button{
+    background-color: rgb(155, 79, 225);
+    padding: 6px;
+    margin: 23px;
+    cursor: pointer;
+}
+.about button:hover{
+    background-color: blueviolet;
+}
+
+/* contact section */
+.contact{
+    background-image: linear-gradient(to right, rgb(220, 220, 220),rgb(162, 198, 162));
+    text-align: center;
+    padding: 48px;
+    animation-duration: 1s;
+    
+}
+.contact input,textarea,button{
+    padding: 6px;
+    cursor: pointer;
+    border-radius: 6px;
+    border:1px gray;
+}
+.contact input:focus, 
+.contact textarea:focus,
+.contact button:focus{
+    box-shadow: 0px 0px 10px rgb(78, 153, 4);
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+}
+
+/* footer section */
+.footer{
+    margin: 0px;
+    padding: 3px;
+    text-align: center;
+    background-color: black;
+    border-radius: 2px;
+}
+.footer p{
+    color: blue;
+    font-weight: 700;
+    cursor: pointer;
+}
+@media screen and (max-width: 768px) {
+    .container {
+      flex-direction: column;
+      align-items: center;
+      padding: 10px;
+    }
+    .link {
+      flex-direction: column;
+      gap: 10px;
+      margin: 10px 0;
+    }
+    .myInfo {
+      padding: 90px;
+    }
+    .myInfo img {
+      width: 80px;
+    }
+    .price {
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+    }
+    .contact input,
+    .contact textarea,
+    .contact button {
+      width:84%;
+    }
+}
+  
