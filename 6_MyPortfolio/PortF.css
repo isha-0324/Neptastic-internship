@@ -59,7 +59,7 @@ body{
 }
 .myInfo h1{
     cursor: pointer;
-    color: rgb(78, 153, 4);
+    color: rgb(21, 30, 203);
     font-weight: bold;
 }
 .myInfo p{
@@ -161,13 +161,16 @@ body{
     margin: 0 auto;
 }
 .about button{
-    background-color: rgb(155, 79, 225);
+    background-image: linear-gradient(to right, blue, blueviolet);
     padding: 6px;
     margin: 23px;
     cursor: pointer;
 }
+.about button{
+    transition: transform 0.5s ease-in-out;
+}
 .about button:hover{
-    background-color: blueviolet;
+    transform: scale(1.1);
 }
 
 /* contact section */
