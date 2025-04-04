@@ -315,6 +315,13 @@ img:hover{
     justify-content: center;
     align-items: center;
 }
+.container{
+    height:512px ;
+    display: flex;
+    align-items: center;
+    border-top: 1px solid black;
+    
+}
 .footer-info{
     height: 412px;
     width: 996px;
@@ -322,17 +329,17 @@ img:hover{
     justify-content: space-between;
 }
 .message{
-    height: 264px;
-    width: 445px;
+    height: 214px;
+    width: 435px;
     display: flex;
     flex-direction: column;
-    gap: 115px;
+    gap: 69px;
 }
 .textt{
     display: flex;
     flex-direction: column;
     gap: 24px;
-    
+   
 }
 .icon img{
     height: 33px;
@@ -345,11 +352,11 @@ img:hover{
 form{
     display: flex;
     flex-direction: column;
-    gap: 1px;
+    gap: 8px;
 }
 form input{
-    width: 384px;
-    height: 21px;
+    width: 413px;
+    height: 35px;
     padding: 12px;
     background-color: rgb(235, 233, 233);
     border: 
@@ -357,8 +364,8 @@ form input{
     cursor: pointer;
 }
 form textarea{
-    width: 389px;
-    height: 146px;
+    width: 412px;
+    height: 154px;
     padding: 11px;
     background-color: rgb(235, 233, 233);
     border: rgb(235, 233, 233);
