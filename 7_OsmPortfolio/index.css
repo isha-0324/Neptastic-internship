@@ -15,18 +15,8 @@ html{
     align-items: center;
     position: fixed;
     width: 100%;
-    animation: fadeInDown 1s ease-in-out;
 }
-@keyframes fadeInDown {
-    from{
-        opacity: 0;
-        transform: translateY(-20px);
-    }
-    to{
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
+
 .info{
     padding: 15px;
     cursor: pointer;
@@ -55,16 +45,9 @@ li a{
     gap: 14px;
     padding: 100px;
     align-items: center;
-    animation: fadeIn 1s ease-in-out;
+    
 }
-@keyframes fadeIn{
-    from{
-        opacity: 0;
-    }
-    to{
-        opacity: 1;
-    }
-}
+
 .text{
     height: 300px;
     width: 500px;
@@ -76,42 +59,18 @@ li a{
 .text p{
     font-size: 26px;
     cursor: pointer;
-    animation: slideInLeft 2s ease-in-out;
 }
 .text h1{
     font-size: 54px;
     cursor: pointer;
-    animation: slideInRight 2s ease-in-out;
 }
-@keyframes slideInLeft{
-    from{
-        opacity: 0;
-        transform: translateX(-50);
-    }
-    to{
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
-@keyframes slideInRight{
-    from{
-        opacity: 0;
-        transform: translateX(50);
-    }
-    to{
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
+
 img{
     height:412px;
     width:456px;
     cursor: pointer;
-    transition: transform 0.3s ease-in-out;
 }
-img:hover{
-    transform: scale(1.1);
-}
+
 
 /* logo section */
 .logo{
@@ -126,18 +85,9 @@ img:hover{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    animation: fadeInUp 1.4s ease-in-out;
+    
 }
-@keyframes fadeInUp{
-    from{
-       opacity: 0;
-       transform: translateY(50);
-    }
-    to{
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
+
 .first{
     height: 34px;
     width: 51px;
@@ -310,79 +260,147 @@ img:hover{
 }
 /* contact section */
 .contact{
-    height: 612px;
+    height: 669px;
+    width: 1280px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 70px;
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 10px;
 }
 .container{
-    height:512px ;
+    height:599px ;
+    width: 1080px;
     display: flex;
     align-items: center;
-    border-top: 1px solid black;
-    
+    border-top: 2px solid black;
+    padding-top: 70px;
+    gap: 70px;
 }
 .footer-info{
-    height: 412px;
-    width: 996px;
+    height: 529px;
+    width: 1080px;
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
+    gap: 190px;
 }
 .message{
-    height: 214px;
-    width: 435px;
+    height: 313px;
+    width: 360px;
     display: flex;
     flex-direction: column;
-    gap: 69px;
+    gap: 60px;
 }
 .textt{
+    width: 360px;
+    height: 217px;
     display: flex;
     flex-direction: column;
-    gap: 24px;
+    gap: 40px;
    
 }
 .icon img{
-    height: 33px;
-    width: 164px;
+    height: 36px;
+    width: 232px;
 }
 .contactUs{
-    height: 412px;
-    width: 412px;
+    height: 529px;
+    width: 530px;
 }
-form{
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-}
+
 form input{
-    width: 413px;
-    height: 35px;
-    padding: 12px;
+    width: 530px;
+    height: 69px;
+    padding: 21px 30px;
     background-color: rgb(235, 233, 233);
     border: 
     rgb(223, 223, 223);
     cursor: pointer;
 }
 form textarea{
-    width: 412px;
-    height: 154px;
-    padding: 11px;
+    width: 530px;
+    height: 231px;
     background-color: rgb(235, 233, 233);
     border: rgb(235, 233, 233);
     cursor: pointer;
+    padding: 21px 30px;
 }
 form button{
-    height: 31px;
-    width: 122px;
+    height: 80px;
+    width: 235px;
     background-color: black;
     color: white;
     cursor: pointer;
-    transition: background-Color 1.4s ease-in-out, transform 0.2s ease-in-out;
+    padding: 25px 82px;
 }
-form button:hover{
-    background-color: rgb(78, 71, 71);
-    transition: scale(1.1);
+
+
+.about{
+    padding: 120px 320px;
+    width: 1280px;
+    height: 537.52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: rgb(255, 229, 234);
 }
-form input:hover, textarea:hover{
-    background-color: azure;
+.about-header{
+    width: 780px;
+    height: 297.52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+  
+}
+.persona img{
+    height: 297.52px;
+    width: 195px;
+}
+.font{
+    height: 135px;
+    width: 515px;
+}
+
+.body1{
+    height: 640px;
+    width: 1280px;
+    padding: 120px 320px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.body-text{
+    width: 880px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+.word{
+    height: 144px;
+    width: 880px;
+    font-weight: 500;
+    size: 24px;
+    letter-spacing: 1px;
+    display: flex;
+    align-items: center;
+
+}
+.word2{
+    width: 880px;
+    height: 196px;
+    font-weight: 400;
+    size: 16px;
+    line-height: 26px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.para1,.para3{
+    background-color: rgb(60, 97, 60);
+    height: 28px;
 }
