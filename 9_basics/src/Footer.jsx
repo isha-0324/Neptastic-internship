@@ -1,6 +1,6 @@
 function Footer(){
   return(
-    <p>This is footer</p>
+    <p style={{border: "1px solid #ccc", margin: "8px", padding:"6px"}}>This is footer</p>
   )
 }
 export default Footer;
