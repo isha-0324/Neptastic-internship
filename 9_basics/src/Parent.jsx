@@ -2,9 +2,9 @@ import Child from './Child'
 
 function Parent(){
   return(
-    <div style={{border: "1px solid #ccc", margin: "8px", padding:"6px"}}>
+    <div className="bg-green-700 px-14 py-8 text-white hover:bg-green-400 cursor-pointer border-2 border-gray-500 text-center text-black text-xl">
       <Child name="Aisha" Child age={23}/>
-      {/* <Child age={23}/> */}
+      
     </div>
   )
 }

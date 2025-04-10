@@ -5,7 +5,7 @@ function ProductList(){
     {id:3, name:"NoteBook", price:"&9"}
   ]
   return(
-    <ul style={{border: "1px solid #ccc", margin: "8px", padding:"16px"}}>
+    <ul className="bg-green-700 px-14 py-8 text-white hover:bg-green-400 cursor-pointer border-2 border-gray-500 text-center text-black text-xl">
       {products.map(product =>(
         <li key={product.id}>{product.name}-{product.price}</li>
       ))}

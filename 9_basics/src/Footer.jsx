@@ -1,6 +1,6 @@
 function Footer(){
   return(
-    <p style={{border: "1px solid #ccc", margin: "8px", padding:"6px"}}>This is footer</p>
+    <p className="bg-green-600 px-14 py-8 text-white hover:bg-gray-500 cursor-pointer border-2 text-center text-black text-xl">This is footer</p>
   )
 }
 export default Footer;

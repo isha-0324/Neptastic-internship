@@ -7,16 +7,15 @@ import Counter from './Counter';
 import LoggerComponent from './LoggerComponent';
 import LoginStatus from './LoginStatus';
 import ProductList from './ProductList';
-import Button from './new/Button';
-import Input from './new/Input'; 
-import Card from './new/Card';
-import AppPage from './new/AppPage';
-import About from './new/About';
-import AppChild from './new/AppChild';
+import Button from './newD-9/Button';
+import Input from './newD-9/Input'; 
+import Card from './newD-9/Card';
+import AppPage from './newD-9/AppPage';
+import AppChild from './newD-9/AppChild';
 
 function App(){
     return(
-        <div>
+        <div className='bg-black text-white'>
             <Header/>
             <Body/>
             <Footer/>
